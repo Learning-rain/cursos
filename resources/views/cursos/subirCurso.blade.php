@@ -15,7 +15,7 @@ Subir Cursos
             <div class="panel panel-default">
                 <div class="panel-body col-md-12">
                     <div class="row">
-                        <form action="guardaCurso" method="post">
+                        <form action="guardaCurso" method="post" enctype="multipart/form-data">
                         <div class="input-group">
                             <span class="input-group-addon">Título</span>
                             <input type="text" name="titulo" required class="form-control" placeholder="">
