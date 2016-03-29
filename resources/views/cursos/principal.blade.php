@@ -15,7 +15,7 @@ Cursos
     <div class="col-md-12 animated fadeInDown margenCursos">
         <div class="col-md-1"></div>
         <div class="col-md-3 hvr-grow-shadow">
-            <a href="cursos"><img  src="images/cursos2.png" class="img-responsive center-block"></a>
+            <a href="cursos"><img  src="images/cursos.jpg" class="img-responsive center-block"></a>
             <ul class="list-group list-group-flush text-center">
                 <li class="list-group-item"><h2 class="text-center">Explorar Cursos</h2> </li>
                 <li class="list-group-item text-justify">Cursos en Línea. Desarrollarás las técnicas y los conocimientos necesarios para ser un especialista del área en la que trabajas, o de alguna otra de tu interés.</li>
