@@ -12,6 +12,7 @@ Cursos
     </div>
     <h3 class="col-lg-offset-1">Cursos en línea</h3>
     <hr class="hrCursos">
+    <hr class="hrCursos1">
     <div class="col-md-12 animated fadeInDown margenCursos">
         <div class="col-md-1"></div>
         <div class="col-md-3 hvr-grow-shadow">
@@ -41,6 +42,7 @@ Cursos
         </div>                    
     </div>
     <hr class="hrCursos">
+        <hr class="hrCursos1">
     <div class="col-md-12 animated fadeInDown margenCursos2">
         <div class="col-md-2"></div>
         <div class="col-sm-3">

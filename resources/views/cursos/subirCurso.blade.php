@@ -12,6 +12,7 @@ Subir Cursos
     </div>
     <h3 class="col-lg-offset-1">Subir Cursos</h3>
     <hr class="hrCursos">
+    <hr class="hrCursos1">    
     <div class="panel panel-default">
         <div class="panel-body col-md-12">
             <div class="row">

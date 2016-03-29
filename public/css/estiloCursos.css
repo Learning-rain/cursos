@@ -15,6 +15,13 @@ and open the template in the editor.
 }
 .hrCursos{
     height: 8px;
+    /*background-color:#2098d1;*/
+    background-color:#D3D3D3;
+    width: 90%;
+}
+.hrCursos1{
+    margin-top: -2%;
+    height: 2px;
     background-color:#2098d1;
     width: 90%;
 }
@@ -153,7 +160,7 @@ a.socialIcon:hover, .socialHoverClass {
     text-align: center;
 }
 
-.social-circle li a:hover i, .triggeredHover {
+/*.social-circle li a:hover i, .triggeredHover {
     -moz-transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
     -ms--transform: rotate(360deg);
@@ -163,7 +170,7 @@ a.socialIcon:hover, .socialHoverClass {
     -o-transition: all 0.2s;
     -ms-transition: all 0.2s;
     transition: all 0.2s;
-}
+}*/
 .social-circle i {
     color: #fff;
     -webkit-transition: all 0.8s;

@@ -10,6 +10,7 @@ Explorar Cursos
     </div>
     <h3 class="col-lg-offset-1">Explora Nuestros Cursos</h3>
     <hr class="hrCursos">
+    <hr class="hrCursos1">    
     <div class="col-md-12  animated fadeInDown margenCursos2">
         <div class="col-md-1"></div>
         <div class="col-md-3 hvr-pulse-grow">
@@ -74,6 +75,7 @@ Explorar Cursos
         </div>                    
     </div>
         <hr class="hrCursos">
+            <hr class="hrCursos1">
     <div class="col-md-1"></div>
     <div class="col-md-3 hvr-pulse-grow margenCursos2">
         <img src="images/leg_androi.png"class="img-responsive center-block">
@@ -139,6 +141,7 @@ Explorar Cursos
         </ul>
     </div> 
         <hr class="hrCursos">
+            <hr class="hrCursos1">
     <div class="col-md-1"></div>
     <div class="col-md-3 hvr-pulse-grow margenCursos2">
         <img src="images/libro1.png"class="img-responsive center-block">
