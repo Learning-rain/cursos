@@ -5,7 +5,7 @@ Explorar Cursos
 @include('cursos.header')
 <div class="row">
     <div class="image-responsive col-md-12">
-        <img class="bannerCursos" src="images/banner-cursos.png">
+        <img class="bannerCursos" src="images/banner-cursos1.png">
         <br><hr><br>
     </div>
     <h3 class="col-lg-offset-1">Explora Nuestros Cursos</h3>
