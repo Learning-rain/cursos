@@ -27,7 +27,7 @@ and open the template in the editor.
     width: 100%;
 }
 .bannerCursos{
-    height: 250px;
+    height: 50%;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
