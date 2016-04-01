@@ -16,7 +16,7 @@ Subir Cursos
     <div class="panel panel-default">
         <div class="panel-body col-md-12">
             <div class="row">
-                <form action="guardaCurso" method="post" enctype="multipart/form-data">
+                <form action="{{url('guardaCurso')}}" method="post" enctype="multipart/form-data">
                     <div class="input-group">
                         <span class="input-group-addon">Título</span>
                         <input type="text" name="titulo" required class="form-control" placeholder="">
@@ -38,9 +38,9 @@ Subir Cursos
                         <input type="number" name="num_preguntas" required class="form-control" placeholder="">
                     </div>
                     <label class="control-label">Selecciónar tabla</label>
-                    <input id="input-7" required name="tabla" multiple type="file" class="file file-loading" data-allowed-file-extensions='["csv", "xlsx"]'>
+                    <input id="input-7"  name="tabla"  type="file" class="file file-loading" data-allowed-file-extensions='["csv", "xlsx"]'>
                     <label class="control-label">Selecciónar imágen</label>
-                    <input id="input-7" required name="icono" multiple type="file" class="file file-loading" data-allowed-file-extensions='["png", "jpg"]'>
+                    <input id="input-7"  name="icono" type="file" class="file file-loading" data-allowed-file-extensions='["png", "jpg"]'>
                     <div><button class="btn btn-info" type="submit">Subir</button></div>
                 </form>
             </div>
