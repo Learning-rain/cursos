@@ -38,6 +38,7 @@ class CursosController extends Controller {
         return view('cursos/subirCurso');
     }
 
+
     public function guardaCurso(Request $request) {
         $curso = new \App\test();
 
@@ -62,8 +63,9 @@ class CursosController extends Controller {
             $res = $this->import_csv_to_sqlite($pdo, "./csv/$curso->id.csv");
         }
         
-        return redirect('subirCurso');
+        return redirect('misCursos');
     }
+
 
     public function import_csv_to_sqlite(&$pdo, $csv_path, $options = array()) {
 
