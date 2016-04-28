@@ -14,4 +14,6 @@ Route::group(['middleware' => 'web'], function () {
     Route::post('guardaCurso', 'CursosController@guardaCurso');
     Route::post('subirTabla', 'CursosController@subirTabla');
     Route::post('subirIcono', 'CursosController@subirIcono');
+    Route::resource ('json', 'JsonController');
+    Route::get('search/{query}','JsonController@search');
 });

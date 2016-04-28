@@ -18,7 +18,8 @@ Subir Cursos
         <hr class="hrCursos">
         <hr class="hrCursos1">    
         <div class="panel panel-default">
-            <div class="panel-body col-md-12">
+             <div class="panel-body col-md-2"></div>
+            <div class="panel-body col-md-8">
                 <div class="row">
                     <form action="{{url('guardaCurso')}}" method="post" enctype="multipart/form-data">
                         {!!csrf_field () !!}
